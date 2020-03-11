@@ -1,0 +1,52 @@
+/* regole DEBUG */
+
+.menu{
+  background: red;
+}
+.upgrade{
+  background: rgba(0, 0, 0, 0.4);
+}
+.player{
+  background: grey;
+}
+main{
+  margin-bottom: 90px;
+  margin-left: 230px;
+  height:1500px;
+  background-color: yellow;
+}
+
+
+/* regole generali */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* regole elementi fixed */
+.fixed{
+  position: fixed;
+}
+.menu{
+  width: 230px;
+  height: calc(100vh - 90px);
+  top:0;
+  left:0;
+}
+.upgrade{
+  width:calc(100vw - 230px);
+  height: 90px;
+  top:0;
+  right: 0;
+}
+.player{
+  width: 100%;
+  height: 90px;
+  bottom: 0;
+  left:0;
+}
+
+main{
+
+}
